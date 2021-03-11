@@ -3,6 +3,8 @@ A Mapreduce approach using mrjob library to find the users with the same taste o
 
 The full u data set: 100000 ratings by 943 users on 1682 items. Each user has rated at least 20 movies.  Users and items are numbered consecutively from 1.  The data is randomly ordered. This is a tab separated list of user id | item id | rating | timestamp | Genres. The time stamps are unix seconds since 1/1/1970 UTC. Genres are from unknown, Action, Adventure, Animation, Children's, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, and Western 
 
+https://grouplens.org/datasets/movielens/100k/
+
 In our dataset, each user has voted on some movies. And each movie belongs to one or more than one genres' classes. Thus, we can extract the users' votes to these genres. 
 In the first Mapreduce, we find if a user likes or dislikes a genre. These are some examples of the first Mapreduce output: (we use the ids of the users.)
 
