@@ -1,6 +1,10 @@
 # MapReduce-to-similar-users
 A Mapreduce approach using mrjob library to find the users with the same taste of the genres of different movies.
 
+You can see an example of the functionality of MapReduce Algorithm here: [1]
+
+![](mapreduce_work.jpg)
+
 The full u data set: 100000 ratings by 943 users on 1682 items. Each user has rated at least 20 movies.  Users and items are numbered consecutively from 1.  The data is randomly ordered. This is a tab separated list of user id | item id | rating | timestamp | Genres. The time stamps are unix seconds since 1/1/1970 UTC. Genres are from unknown, Action, Adventure, Animation, Children's, Comedy, Crime, Documentary, Drama, Fantasy, Film-Noir, Horror, Musical, Mystery, Romance, Sci-Fi, Thriller, War, and Western 
 
 https://grouplens.org/datasets/movielens/100k/
@@ -42,3 +46,5 @@ using Jaccard similarity.  These are some examples of the final Mapreduce output
 [”22”, ”55”] ”Similar”
 
 You can find the description for the key and values of different mappers and reducers in the code's comment.
+
+[1]: mapreduce_work.jpg
