@@ -1,7 +1,7 @@
 # MapReduce-to-similar-users
 A Mapreduce approach using mrjob library to find the users with the same taste of the genres of different movies.
 
-You can see an example of the functionality of MapReduce Algorithm here: [1]
+You can see an example of the functionality of MapReduce Algorithm here: [1](Source: https://www.tutorialspoint.com/map_reduce/map_reduce_quick_guide.htm)
 
 ![](mapreduce_work.jpg)
 
