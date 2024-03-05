@@ -1,4 +1,5 @@
 # MapReduce-to-similar-users
+Find similar users w.r.t the given votes for movie genres using MapReduce
 
 ## Description
 MapReduce is a programming model and framework designed for processing and generating large-scale data sets in a parallel and distributed manner. The input data is divided into smaller chunks, and the *mapper* is applied to each chunk independently to produce a set of key-value pairs as intermediate outputs. After this phase, the framework shuffles and sorts the intermediate key-value pairs based on their keys to ensure that all values for a particular key end up at the same reducer. Then the *reducer* is applied to each group of key-value pairs with the same key to generate the final output. 
