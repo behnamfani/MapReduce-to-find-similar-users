@@ -6,6 +6,7 @@ MapReduce is a programming model and framework designed for processing and gener
 In this program, [mrjob](https://mrjob.readthedocs.io/en/latest/) is used to create two pairs of mapper-reducers to find similar users w.r.t movie genres based on their votes given to various movies with different genres. 
 
 ![](mapreduce_work.jpg)
+*https://www.tutorialspoint.com/map_reduce/map_reduce_introduction.htm*
 
 ## Dataset
 
